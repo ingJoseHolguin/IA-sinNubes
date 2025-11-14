@@ -1,0 +1,33 @@
+# Entornos virtuales
+venv/
+.env
+.venv
+__pycache__/
+*.pyc
+
+# Archivos de modelos grandes (¡CRÍTICO!)
+models/
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Variables de entorno
+.env
+*.env
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Salidas de ejecución
+*.log
+output/
+results/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
