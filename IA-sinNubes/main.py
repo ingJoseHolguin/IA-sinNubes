@@ -1,7 +1,6 @@
 import requests
 
 def query_llm(user_input):
-    # ✨ PROMPT DE CONTEXTO ESENCIAL ✨
     # Formato específico para Qwen2 (CRÍTICO para buenos resultados):
     prompt = (
         "<|im_start|>system\n"
